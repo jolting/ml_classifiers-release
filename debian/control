@@ -1,0 +1,12 @@
+Source: ros-indigo-ml-classifiers
+Section: misc
+Priority: extra
+Maintainer: Scott Niekum <sniekum@cs.umass.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/ml_classifiers
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ml-classifiers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-std-msgs
+Description: ml_classifiers
